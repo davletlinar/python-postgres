@@ -1,0 +1,2 @@
+create a postgres docker container
+docker run -d --name tsz_database -p 5432:5432 -e POSTGRES_PASSWORD=1986 postgres:16-bookworm
